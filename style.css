@@ -1,0 +1,208 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url(https://pbs.twimg.com/profile_banners/1045316480240218112/1549955656/1500x500) no-repeat;
+    background-size: cover;
+    height: 250px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .rectangulo {
+    width: 900px;
+    height: 100px;
+    margin: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+  
+  .rectangulos {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  .rectangulo1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url(https://coolhuntermx.com/wp-content/uploads/2017/12/portada-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .rectangulo2 {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rectangulo3 {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rectangulo4 {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-image: url(https://www.squishable.com/mm5/graphics/00000001/5/Splash_Squishable_stores.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rectangulo5 {
+    width: 125px;
+    height: 100px;
+    margin: 10px;
+    background-image: url(https://style.shockvisual.net/wp-content/uploads/2021/03/disney-store-logo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rectangles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #a3f3ffe1;
+    background-position: center;
+  }
+  
+  .circulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  .circulo1 {
+    border: solid white;
+    border-radius: 50%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .circulo2 {
+    border: solid white;
+    border-radius: 50%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://s3-eu-west-1.amazonaws.com/tpd/logos/56819b2c0000ff0005870a1a/0x0.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .circulo3 {
+    border: solid white;
+    border-radius: 50%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/1200px-Youtube_Music_icon.svg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background: url(https://galleriadallas.com/assets/rainbow-wall_1589575488sm.jpg) repeat;  
+    background-size: cover;
+    background-position: center;
+}
+  .card {
+    border: solid;
+    border-radius: 10px;
+    margin: 35px;
+    background-color: white;
+  }
+  #imagen1{
+    height: 10rem;
+    display: block;
+    margin: auto;
+  }
+  #imagen2{
+    height: 10rem;
+    display: block;
+    margin: auto;
+    
+  }
+  #imagen3{
+    height: 10rem;
+    display: block;
+    margin: auto;
+  }
+  section {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://cdns7.shopdisney.disney.co.jp/is/image/ShopDisneyJP/candy-color_210507_3200_900?fit=constrain&cropN=0,0,1,1&fmt=webp&qlt=90&wid=1200);
+    background-size: cover;
+    background-position: center;
+  }
+  article {
+    flex-basis: 60%;
+    background-color: rgba(202, 202, 202, 0.436);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin: 35px;
+    
+  }
+  aside {
+    flex-basis: 30%;
+    background-color: rgba(211, 211, 211, 0.436);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  h2, h3 {
+    margin-top: 0;
+  }
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+    margin: 15px;
+  }
+
+  footer p {
+	margin: 0;
+	line-height: 1.5;
+  }
+
+  footer a {
+	color: #fff;
+	text-decoration: none;
+  }
